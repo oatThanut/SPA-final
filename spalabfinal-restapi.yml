@@ -15,10 +15,9 @@ spec:
     spec:
       containers:
       - name: spalabfinal-app
-        image: gcr.io/voltaic-mantra-195316/spalabfinal:latest
+        image: gcr.io/inductive-talon-203408/spa-lab-final:latest
         command: ["spa-lab-final"]
         imagePullPolicy: Always
         ports:
         - name: http-server
           containerPort: 8000
-          
